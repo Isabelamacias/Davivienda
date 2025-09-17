@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Davivienda</title>
+  <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Iniciar Sesión</h2>
+    <input type="email" id="loginEmail" placeholder="Correo electrónico">
+    <input type="password" id="loginPassword" placeholder="Contraseña">
+    <button onclick="login()">Ingresar</button>
+
+   <hr>
+    <button class="social-btn google" onclick="loginGoogle()">Ingresar con Google</button>
+    <button class="social-btn facebook" onclick="loginFacebook()">Ingresar con Facebook</button>
+
+    <a href="register.html">¿No tienes cuenta? Regístrate</a>
+
+
+  </div>
+  <script src="../JS/app.js"></script>
+</body>
+</html>

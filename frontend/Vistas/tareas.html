@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tareas - Davivienda</title>
+  <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Mis Tareas</h2>
+    
+    <input type="text" id="titulo" placeholder="Título de la tarea">
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <select id="prioridad">
+      <option value="Alta">Alta</option>
+      <option value="Media" selected>Media</option>
+      <option value="Baja">Baja</option>
+    </select>
+    <button onclick="crearTarea()">Agregar Tarea</button>
+    <button onclick="logout()">Cerrar Sesión</button>
+
+    <h3>Lista de tareas:</h3>
+    <ul id="listaTareas"></ul>
+  </div>
+
+  <script src="../JS/app.js"></script>
+</body>
+</html>
